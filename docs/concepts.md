@@ -4,21 +4,30 @@
 - Function prototypes and definitions
 - Parameter passing by value vs by reference
 - Return values and types
-- Example: `int square(int number) { return number * number; }`
+- Simple mult function: `int square(int number) { return number * number; }`
 
 ## Pointers
 **Critical concepts:**
 - Pointer declaration: `int *ptr`
+
 - Address-of operator: `&variable`
+
 - Dereference operator: `*ptr`
+
 - Pointer arithmetic: `ptr+1`, `ptr++`, `ptr--`
+
 - Array-pointer relationship: `myArray ≡ &myArray[0]`
+
 - Pointer to pointer: `int **ptrToPtr`
+
 - Function parameter passing with pointers
 
 **Key relationships:**
+
 - `arr[i] ≡ *(arr+i)`
+
 - `&arr[i] ≡ arr+i`
+
 - Arrays passed to functions become pointers
 
 ## Arrays and Strings
@@ -29,10 +38,10 @@
 - String indexing vs pointer notation
 
 ## Dynamic Memory Allocation
-- `malloc()` and `free()` usage patterns
-- Memory leak prevention
-- Error checking for allocation failures
-- Dynamic string allocation based on input length
+- `malloc()` and `free()`
+- **Error checking for allocation failures** (Don't forget...)
+
+Dynamic string allocation based on input length is a good usecase for this.
 
 ## Stack Data Structure
 - Using arrays to implement stack behavior
@@ -62,8 +71,13 @@
 
 ### Class 11 - String Manipulation
 **Functions to implement:**
+
 - `stringCopy1/2()` - copying strings with arrays vs pointers
+
 - `stringNCopy1/2()` - copying n characters
+
 - `stringCat1/2()` - string concatenation  
+
 - `stringNCat1/2()` - concatenating n characters
+
 - String comparison using `strncmp()` with shortest length

@@ -1,4 +1,4 @@
-# Intro to C Final Exam
+# Intro to C Final (ch 7+)
 
 ## Quick Navigation
 

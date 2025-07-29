@@ -1,6 +1,6 @@
-# Practice Problems Overview
+# Practice Problems/Labs Overview
 
-## Pointer Arithmetic Predictions
+## Pointer Arithmetic
 - Calculate memory addresses manually
 - Understand 4-byte integer spacing
 - Predict pointer increment/decrement results
