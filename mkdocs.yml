@@ -1,5 +1,6 @@
 site_name: Intro to C Final Exam
 site_author: Madison
+site_url: https://cueki.github.io/intro-to-c/
 
 theme:
   name: material
